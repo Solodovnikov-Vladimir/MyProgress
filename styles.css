@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #e5e5e5;
+  display: flex;
+  padding-top: 5rem;
+  justify-content: center;
+  overflow: hidden;
+  margin: 0;
+}
+
+.row {
+  display: flex;
+  width: 600px;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.col-header {
+  width: 100px;
+  box-shadow: 4px 4px 9px rgba(198, 198, 198, 0.36);
+  border-radius: 20px;
+  padding: 0.8rem 1rem;
+  color: #fff;
+}
+
+.item {
+  width: 100px;
+  height: 100px;
+  border: 1px solid rgb(110, 231, 11);
+  box-shadow: 4px 4px 9px rgba(108, 194, 10, 0.36);
+  border-radius: 50%;
+  background: radial-gradient(white, green);
+  padding: 2rem 2rem;
+  color: #252e0b;
+  text-align: center;
+  cursor: grab;
+}
+
+.item:active {
+  cursor: grabbing;
+}
+
+.placeholder {
+  width: 100px;
+  height: 100px;
+}
+
+.Task1 {
+  background: linear-gradient(90deg, red 0%, yellow 179.100%);
+  box-shadow: 4px 4px 9px rgba(36, 12, 22, 0.36);
+  border: 1px solid rgb(255, 255, 255);
+  text-align: center;
+}
+
+.Task2 {
+  background: linear-gradient(90deg, yellow 0%, green 100%);
+  box-shadow: 4px 4px 9px rgba(36, 12, 22, 0.36);
+  border: 1px solid rgb(255, 255, 255);
+  text-align: center;
+}
+
+.Task3 {
+  background: linear-gradient(90deg, green 0%, lightblue 100%);
+  box-shadow: 4px 4px 9px rgba(36, 12, 22, 0.36);
+  border: 1px solid rgb(255, 255, 255);
+  text-align: center;
+}
+
+.Task4 {
+  background: linear-gradient(90deg, lightblue 0%, blue 100%);
+  box-shadow: 4px 4px 9px rgba(36, 12, 22, 0.36);
+  border: 1px solid rgb(255, 255, 255);
+  text-align: center;
+}
+
+.Task5 {
+  background: linear-gradient(90deg, blue 0%, purple 100%);
+  box-shadow: 4px 4px 9px rgba(36, 12, 22, 0.36);
+  border: 1px solid rgb(255, 255, 255);
+  text-align: center;
+}
+
+.hold {
+  border: 2px solid aliceblue;
+}
+
+.hide {
+  display: none;
+}
+
+.hovered {
+  background-color: aqua;
+  border-radius: 50%;
+}
